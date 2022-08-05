@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'simple-root',
+  template: '<simple-template-driven-form></simple-template-driven-form>'
 })
-export class AppComponent {
-  title = 'helpdesk';
-}
+export class AppComponent { }
